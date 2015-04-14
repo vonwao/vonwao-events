@@ -15,9 +15,9 @@ orion.addEntity('emails', {
     }),
 }, {
     icon: 'envelope',
-    sidebarName: 'Emails',
-    pluralName: 'Emails',
-    singularName: 'Email',
+    sidebarName: 'Email Subscribers',
+    pluralName: 'Email Subscribers',
+    singularName: 'Email Subscriber',
     tableColumns: [
         { data:'email', title: 'Email' },
         orion.attributeColumn('user', 'userId', 'User'),
